@@ -1,0 +1,51 @@
+.gestion_tickets_container{
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    padding: 1.5%;
+}
+.controlls_gest_tick{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.fltr_tickets{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.tt_acc_adm{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.busq_admin_acc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.busq_admin_acc i{
+    font-size: 1.5rem;
+}
+.fltr_tickets select{
+    padding: 5px;
+    height: 100%;
+    padding: 10px;
+    outline: none;
+}
+.select_adm{
+    border: none;
+}
+.opt_admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#filtr_pri, #filtr_tem, #filtr_est, #filtr_fech{
+    border: 1px solid #fff;
+}
