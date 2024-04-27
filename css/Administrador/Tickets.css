@@ -3,7 +3,6 @@
     width: 100%;
     position: absolute;
     bottom: 0;
-    overflow: hidden;
     padding: 1.5%;
 }
 .controlls_gest_tick{
@@ -48,4 +47,18 @@
 }
 #filtr_pri, #filtr_tem, #filtr_est, #filtr_fech{
     border: 1px solid #fff;
+}
+.tickets_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ticket_icon{
+    height: 300px;
+    width: 300px;
+}
+.ticket_icon path{
+    height: 100%;
+    width: 100%;
 }
