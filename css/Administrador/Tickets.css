@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 .gestion_tickets_container{
     height: 90%;
     width: 100%;
@@ -53,6 +54,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 10px;
+    gap: 1%;
 }
 .ticket_icon{
     height: 300px;
@@ -61,4 +64,34 @@
 .ticket_icon path{
     height: 100%;
     width: 100%;
+}
+.ticket_prev{
+    height: 270px;
+    width: 270px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_ticket_prev{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.tt_tick_prev{
+    position: relative;
+    z-index: 1;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    width: 60%;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 15%;
 }
