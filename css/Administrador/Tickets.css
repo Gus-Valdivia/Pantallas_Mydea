@@ -85,13 +85,19 @@
     font-family: "Roboto Mono", monospace;
     font-weight: bolder;
     font-size: 1.2rem;
-    transform: rotate(-7deg);
-    -webkit-transform: rotate(-7deg);
-    -moz-transform: rotate(-7deg);
-    -ms-transform: rotate(-7deg);
-    -o-transform: rotate(-7deg);
     width: 60%;
     text-align: center;
-    margin-top: 10%;
-    margin-left: 15%;
+    margin-top: 12%;
+    margin-left: 2%;
+}
+.sombra_sa{
+    display: none;
+}
+.tick_deg{
+    rotate: 7deg;
+    transform: translateY(-5%);
+    -webkit-transform: translateY(-5%);
+    -moz-transform: translateY(-5%);
+    -ms-transform: translateY(-5%);
+    -o-transform: translateY(-5%);
 }
